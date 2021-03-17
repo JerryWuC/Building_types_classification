@@ -8,18 +8,18 @@ pytorch 1.1
 
 Dataset:
 ===
-The data directory: THUCNews\data <br>
+The data directory: `THUCNews\data` <br>
 There are five textfiles: <br>
-class.txt: label set, including 13 labels divided by the paper <br>
-dev.txt: development set <br>
-pred.txt: prediction set <br>
-test.txt: test set <br>
-train.txt: training set
+`class.txt`: label set, including 13 labels divided by the paper <br>
+`dev.txt`: development set <br>
+`pred.txt`: prediction set <br>
+`test.txt`: test set <br>
+`train.txt`: training set
 
 Pre-train model:
 ==
 the download link：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz <br>
-unzip the dolnloading file and put all the files under the directory: bert_pretrain
+unzip the dolnloading file and put all the files under the directory: `bert_pretrain`
 
 Usage: 
 ==
