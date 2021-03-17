@@ -2,26 +2,29 @@
 Aim: Using for classifying building types
 
 Envirment:
-python 3.6.4
+==
+python 3.6.4 <br>
 pytorch 1.1
 
 Dataset:
 ===
-The data directory: THUCNews\data
+The data directory: THUCNews\data <br>
 There are five textfiles:
-class.txt: label set, including 13 labels divided by the paper
-dev.txt: development set
-pred.txt: prediction set
-test.txt: test set
+class.txt: label set, including 13 labels divided by the paper <br>
+dev.txt: development set <br>
+pred.txt: prediction set <br>
+test.txt: test set <br>
 train.txt: training set
 
 Pre-train model:
-the download link：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
+==
+the download link：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz <br>
 unzip the dolnloading file and put all the files under the directory: bert_pretrain
 
 Usage: 
-After installed all the needed modules and pre-train model, run this sentence to start training:
+==
+After installed all the needed modules and pre-train model, run this sentence to start training: <br>
 python run_train.py --model bert_CNN
 
-As for predition, 
+As for predition, run: <br>
 python run_pred.py --model bert_CNN
