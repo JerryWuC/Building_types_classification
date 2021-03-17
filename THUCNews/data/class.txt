@@ -1,0 +1,13 @@
+BusinessFinancial商务金融
+education教育
+entertainment娱乐
+government政府
+hospital医院
+hotel旅馆
+othercommercial其他商服用地
+publicservice公共服务
+residence住宅
+restaurant餐饮
+retail零售
+special特殊用地
+traffic交通运输用地
