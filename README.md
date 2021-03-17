@@ -6,6 +6,7 @@ python 3.6.4
 pytorch 1.1
 
 Dataset:
+===
 The data directory: THUCNews\data
 There are five textfiles:
 class.txt: label set, including 13 labels divided by the paper
@@ -16,10 +17,11 @@ train.txt: training set
 
 Pre-train model:
 the download link：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
-After unzipping do not need to change, directly into 解压后不需改动，直接放到bert_pretrain文件夹下
+unzip the dolnloading file and put all the files under the directory: bert_pretrain
 
 Usage: 
 After installed all the needed modules and pre-train model, run this sentence to start training:
-python run.py --model bert_CNN
+python run_train.py --model bert_CNN
 
 As for predition, 
+python run_pred.py --model bert_CNN
