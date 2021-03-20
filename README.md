@@ -19,7 +19,7 @@ There are five textfiles: <br>
 Pre-train model:
 ==
 the download link：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz <br>
-unzip the dolnloading file and put all the files under the directory: `bert_pretrain`
+unzip the downloading file and put all the files under the directory: `bert_pretrain`
 
 Usage: 
 ==
