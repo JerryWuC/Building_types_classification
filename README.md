@@ -27,7 +27,7 @@ After installed all the needed modules and pre-train model, run this sentence to
 ```
 python run_train.py --model bert_CNN
 ```
-As for predition, run: <br>
+As for prediction, run: <br>
 ```
 python run_pred.py --model bert_CNN
 ```
